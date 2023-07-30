@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Average of numbers</title>
+  </head>
+  <body>
+    <h1>Average of the numbers in an array of numbers</h1>
+
+    <script>
+      // An array of numbers
+      let numbers = [1, 2, 3, 4, 5];
+      let sum = 0;
+      // Loop through each element in the 'numbers' array and calculate the sum
+      numbers.forEach((element) => {
+        // Add each element in the array to the sum
+        sum += element;
+      });
+      // Calculate the average by dividing the sum by the number of elements in the array
+      let avg = sum / numbers.length;
+      console.log(avg);
+    </script>
+  </body>
+</html>

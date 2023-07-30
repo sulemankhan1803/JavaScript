@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sum of ODD</title>
+  </head>
+  <body>
+    <h1>Sum of odd numbers greater than 10 and less than 30</h1>
+
+    <script>
+      var sum = 0;
+      // Loop from 10 to 30 to find odd numbers and calculate the sum
+      for (let i = 10; i <= 30; i++) {
+        // Check if the number is odd
+        if (i % 2 != 0) {
+          // Add the current odd number to the running sum
+          sum += i;
+        }
+      }
+      console.log(
+        "Sum of odd numbers greater than 10 and less than 30 is : " + sum);
+    </script>
+  </body>
+</html>
